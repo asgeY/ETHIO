@@ -16,20 +16,24 @@ class ViewController: CollectionViewController {
         self.title = "ETHIO"
     
         let Places = [
-            Place(artirst: "August Burns Red", name: "Constellations", image: "01"),
-            Place(artirst: "Breakdown of Sanity", name: "Mirrors", image: "02"),
-            Place(artirst: "Currents", name: "The place I feel safest", image: "03"),
-            Place(artirst: "Make Them Suffer", name: "Neverbloom", image: "04"),
-            Place(artirst: "Parkway Drive", name: "Reverence", image: "05"),
-            Place(artirst: "The Haunted", name: "Exit wounds", image: "06"),
-            Place(artirst: "Upon a Burning Body", name: "Red White Green", image: "07"),
-            Place(artirst: "Whitechapel", name: "Our endless war", image: "08"),
+            Place(artirst: "OMO Regions", name: "OMO", image: "C01"),
+            Place(artirst: "South Regions", name: "South", image: "C02"),
+            Place(artirst: "Amhara Regions", name: "Amhara", image: "C03"),
+            Place(artirst: "Tigray Regions", name: "Tigray", image: "C04"),
+            Place(artirst: "Oromo Regions", name: "Oromo", image: "C05"),
+            Place(artirst: "Afar Regions", name: "Afar", image: "C06"),
+            Place(artirst: "Semen Mountain", name: "Semen Mountain", image: "E07"),
+            Place(artirst: "Religion", name: "Religion", image: "E03"),
+            Place(artirst: "Lucy", name: "Lucy", image: "C07"),
+            Place(artirst: "Walia ibex", name: "Walia", image: "C08"),
+            Place(artirst: "Ethiopian wolf", name: "Red Fox", image: "C09"),
+            Place(artirst: "Shaperd", name: "Mountains", image: "E05"),
         ]
         
         let grid = Grid(columns: 4, margin: UIEdgeInsets(all: 8))
         
         let EthioSection = CollectionViewSection(items: [self.createHorizontal()])
-        EthioSection.header = HeaderViewModel("Top metal Ethios")
+        EthioSection.header = HeaderViewModel("Regions")
         
         let items = Places.map { Place -> PlaceViewModel in
             let viewModel = PlaceViewModel(Place)
@@ -37,7 +41,7 @@ class ViewController: CollectionViewController {
             return viewModel
         }
         let PlaceSection = CollectionViewSection(items: items)
-        PlaceSection.header = HeaderViewModel("Top metal Places")
+        PlaceSection.header = HeaderViewModel("Top Places To Visit")
         
         self.source  = CollectionViewSource(grid: grid, sections: [EthioSection, PlaceSection])
         self.collectionView.reloadData()
@@ -45,14 +49,14 @@ class ViewController: CollectionViewController {
     
     func createHorizontal() -> CollectionViewModel {
         let Ethios = [
-            Ethio(name: "August Burns Red", image: "a01"),
-            Ethio(name: "Breakdown of Sanity", image: "a02"),
-            Ethio(name: "Currents", image: "a03"),
-            Ethio(name: "Make Them Suffer", image: "a04"),
-            Ethio(name: "Parkway Drive", image: "a05"),
-            Ethio(name: "The Haunted", image: "a06"),
-            Ethio(name: "Upon a Burning Body", image: "a07"),
-            Ethio(name: "Whitechapel", image: "a08"),
+            Ethio(name: "Lalibela", image: "E09"),
+            Ethio(name: "Ethiopian Coffee", image: "E10"),
+            Ethio(name: "Axum", image: "E11"),
+            Ethio(name: "Gonder Castel", image: "E12"),
+            Ethio(name: "Nile River", image: "E13"),
+            Ethio(name: "Addis Ababa", image: "E14"),
+            Ethio(name: "Ethiopian Air Lines", image: "E15"),
+            Ethio(name: "Erta Ale Active Volcano", image: "E16"),
         ]
 
         let items = Ethios.map { Ethio -> HorizontalEthioViewModel in

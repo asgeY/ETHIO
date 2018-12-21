@@ -17,7 +17,7 @@ class EthioViewController: CollectionViewController {
         
         self.title = self.Ethio.name
         
-        let bio = """
+        let his = """
         A virtual guide to Ethiopia, the land formerly known as Abyssinia.
             Ethiopia is a landlocked country on the Horn of Africa, in the east of the continent. It is bordered by Djibouti, Eritrea, Kenya, Somalia, South Sudan, Sudan, and Somaliland (Somalia).Ethiopia covers an area of 1,126,829 km², this is about twice the size of France or the U.S. state of Texas. Highest elevation is Mount Ras Dashen with 4620 m. A population of more than 90 million inhabitants makes the country the second-most populous nation in Africa. The country comprises of more than 80 ethnic groups and as many languages.
 
@@ -29,18 +29,18 @@ class EthioViewController: CollectionViewController {
         
         let grid = Grid(columns: 1, margin: UIEdgeInsets(all: 8))
         
-        let bioSection = CollectionViewSection(items: [DynamicTextViewModel(bio)])
-        bioSection.header = HeaderViewModel("Biography")
+        let hisSection = CollectionViewSection(items: [DynamicTextViewModel(his)])
+        hisSection.header = HeaderViewModel("History")
         
         let Places = [
-            Place(artirst: "August Burns Red", name: "Constellations", image: "01"),
+            Place(artirst: "Mother Land", name: "LandScape", image: "E01"),
             ]
         
         let items = Places.map { PlaceViewModel($0) }
         let PlaceSection = CollectionViewSection(items: items)
         PlaceSection.header = HeaderViewModel("Places")
         
-        self.source = CollectionViewSource(grid: grid, sections: [bioSection, PlaceSection])
+        self.source = CollectionViewSource(grid: grid, sections: [hisSection, PlaceSection])
         self.collectionView.reloadData()
     }
     
