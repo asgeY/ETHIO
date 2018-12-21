@@ -22,7 +22,7 @@
 		1659396620813F2A007AAC39 /* EthioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1659396520813F2A007AAC39 /* EthioCell.xib */; };
 		1659396820814014007AAC39 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659396720814014007AAC39 /* HeaderCell.swift */; };
 		1659396A2081401B007AAC39 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165939692081401B007AAC39 /* HeaderCell.xib */; };
-		1659396C2081406F007AAC39 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659396B2081406F007AAC39 /* Artist.swift */; };
+		1659396C2081406F007AAC39 /* Ethio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659396B2081406F007AAC39 /* Ethio.swift */; };
 		1659396E20814091007AAC39 /* EthioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659396D20814091007AAC39 /* EthioViewModel.swift */; };
 		16593970208140B8007AAC39 /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659396F208140B8007AAC39 /* HeaderViewModel.swift */; };
 		1659397220814198007AAC39 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659397120814198007AAC39 /* CollectionCell.swift */; };
@@ -30,7 +30,7 @@
 		165939762081422D007AAC39 /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165939752081422D007AAC39 /* CollectionViewModel.swift */; };
 		16593978208147E9007AAC39 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16593977208147E9007AAC39 /* PlaceViewController.swift */; };
 		1659397A20814A48007AAC39 /* EthioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659397920814A48007AAC39 /* EthioViewController.swift */; };
-		1659397C20814AB0007AAC39 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659397B20814AB0007AAC39 /* Song.swift */; };
+		1659397C20814AB0007AAC39 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659397B20814AB0007AAC39 /* Tour.swift */; };
 		1659397E20814AE3007AAC39 /* TourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659397D20814AE3007AAC39 /* TourCell.swift */; };
 		1659398020814AEB007AAC39 /* TourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1659397F20814AEB007AAC39 /* TourCell.xib */; };
 		1659398220814BBC007AAC39 /* TourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659398120814BBC007AAC39 /* TourViewModel.swift */; };
@@ -43,7 +43,7 @@
 		16BB96A0207F385D0081A8A4 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB969F207F385D0081A8A4 /* PlaceCell.swift */; };
 		16BB96A2207F38640081A8A4 /* PlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16BB96A1207F38640081A8A4 /* PlaceCell.xib */; };
 		16BB96A4207F39CE0081A8A4 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB96A3207F39CE0081A8A4 /* PlaceViewModel.swift */; };
-		16BB96A6207F3A4A0081A8A4 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB96A5207F3A4A0081A8A4 /* Album.swift */; };
+		16BB96A6207F3A4A0081A8A4 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB96A5207F3A4A0081A8A4 /* Place.swift */; };
 		16BB96A8207F3FF10081A8A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB96A7207F3FF10081A8A4 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +65,7 @@
 		1659396520813F2A007AAC39 /* EthioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EthioCell.xib; sourceTree = "<group>"; };
 		1659396720814014007AAC39 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 		165939692081401B007AAC39 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
-		1659396B2081406F007AAC39 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		1659396B2081406F007AAC39 /* Ethio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethio.swift; sourceTree = "<group>"; };
 		1659396D20814091007AAC39 /* EthioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthioViewModel.swift; sourceTree = "<group>"; };
 		1659396F208140B8007AAC39 /* HeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
 		1659397120814198007AAC39 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		165939752081422D007AAC39 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
 		16593977208147E9007AAC39 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
 		1659397920814A48007AAC39 /* EthioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthioViewController.swift; sourceTree = "<group>"; };
-		1659397B20814AB0007AAC39 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		1659397B20814AB0007AAC39 /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
 		1659397D20814AE3007AAC39 /* TourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourCell.swift; sourceTree = "<group>"; };
 		1659397F20814AEB007AAC39 /* TourCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourCell.xib; sourceTree = "<group>"; };
 		1659398120814BBC007AAC39 /* TourViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewModel.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		16BB969F207F385D0081A8A4 /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
 		16BB96A1207F38640081A8A4 /* PlaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceCell.xib; sourceTree = "<group>"; };
 		16BB96A3207F39CE0081A8A4 /* PlaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
-		16BB96A5207F3A4A0081A8A4 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		16BB96A5207F3A4A0081A8A4 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		16BB96A7207F3FF10081A8A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,9 +167,9 @@
 		16BB96AC207F458E0081A8A4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				16BB96A5207F3A4A0081A8A4 /* Album.swift */,
-				1659396B2081406F007AAC39 /* Artist.swift */,
-				1659397B20814AB0007AAC39 /* Song.swift */,
+				16BB96A5207F3A4A0081A8A4 /* Place.swift */,
+				1659396B2081406F007AAC39 /* Ethio.swift */,
+				1659397B20814AB0007AAC39 /* Tour.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -316,10 +316,10 @@
 				1659398E208151ED007AAC39 /* DynamicTextViewModel.swift in Sources */,
 				161CF159207EAFD8009E0C6D /* CollectionViewViewModel.swift in Sources */,
 				1659397220814198007AAC39 /* CollectionCell.swift in Sources */,
-				1659396C2081406F007AAC39 /* Artist.swift in Sources */,
+				1659396C2081406F007AAC39 /* Ethio.swift in Sources */,
 				161CF161207EB203009E0C6D /* CollectionViewCell+Reuse.swift in Sources */,
-				16BB96A6207F3A4A0081A8A4 /* Album.swift in Sources */,
-				1659397C20814AB0007AAC39 /* Song.swift in Sources */,
+				16BB96A6207F3A4A0081A8A4 /* Place.swift in Sources */,
+				1659397C20814AB0007AAC39 /* Tour.swift in Sources */,
 				165939762081422D007AAC39 /* CollectionViewModel.swift in Sources */,
 				1659397E20814AE3007AAC39 /* TourCell.swift in Sources */,
 				1659397A20814A48007AAC39 /* EthioViewController.swift in Sources */,

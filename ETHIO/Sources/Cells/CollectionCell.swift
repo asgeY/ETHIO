@@ -18,7 +18,7 @@ class CollectionCell: CollectionViewCell {
             
             self.collectionView.dataSource = self.source
             self.collectionView.delegate = self.source
-            self.collectionView.backgroundColor = .black
+            self.collectionView.backgroundColor = .white
         }
     }
 
