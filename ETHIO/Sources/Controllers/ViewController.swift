@@ -33,7 +33,7 @@ class ViewController: CollectionViewController {
         let grid = Grid(columns: 4, margin: UIEdgeInsets(all: 8))
         
         let EthioSection = CollectionViewSection(items: [self.createHorizontal()])
-        EthioSection.header = HeaderViewModel("Regions")
+        EthioSection.header = HeaderViewModel("Top Places To Visit")
         
         let items = Places.map { Place -> PlaceViewModel in
             let viewModel = PlaceViewModel(Place)
@@ -41,7 +41,7 @@ class ViewController: CollectionViewController {
             return viewModel
         }
         let PlaceSection = CollectionViewSection(items: items)
-        PlaceSection.header = HeaderViewModel("Top Places To Visit")
+        PlaceSection.header = HeaderViewModel("Regions")
         
         self.source  = CollectionViewSource(grid: grid, sections: [EthioSection, PlaceSection])
         self.collectionView.reloadData()

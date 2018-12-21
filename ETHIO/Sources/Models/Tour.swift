@@ -10,6 +10,7 @@ import Foundation
 
 struct Tour {
     let name: String
-    let duration: String
+    
+//    let duration: String
 }
 

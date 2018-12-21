@@ -13,7 +13,7 @@ class TourViewModel: CollectionViewViewModel<TourCell, Tour> {
     override func config(cell: TourCell, data: Tour, indexPath: IndexPath, grid: Grid) {
         cell.numberLabel.text = "\(indexPath.row + 1)."
         cell.textLabel.text = data.name
-        cell.detailTextLabel.text = data.duration
+//        cell.detailTextLabel.text = data.duration
     }
     
     override func size(data: Tour, indexPath: IndexPath, grid: Grid, view: UIView) -> CGSize {
