@@ -34,6 +34,8 @@ class EthioViewController: CollectionViewController {
         
         let Places = [
             Place(artirst: "Mother Land", name: "LandScape", image: "E01"),
+            Place(artirst: "Farmer", name: "Farming", image: "E02"),
+            Place(artirst: "Mother Land", name: "LandScape", image: "E08"),
             ]
         
         let items = Places.map { PlaceViewModel($0) }
